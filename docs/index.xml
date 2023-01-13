@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Joan Gonzalez</title>
+    <link>https://joanigq.github.io/</link>
+    <description>Recent content on Joan Gonzalez</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 13 Jan 2023 17:45:28 -0300</lastBuildDate><atom:link href="https://joanigq.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Post</title>
+      <link>https://joanigq.github.io/posts/2023/01/example-post/</link>
+      <pubDate>Fri, 13 Jan 2023 17:45:28 -0300</pubDate>
+      
+      <guid>https://joanigq.github.io/posts/2023/01/example-post/</guid>
+      <description>This code does things import requests def doSomething(x:int, a:list, b:str) -&amp;gt; None: return; if __name__ == &amp;#34;__main__&amp;#34;: doSomething(1, [&amp;#39;a&amp;#39;,&amp;#39;b&amp;#39;,&amp;#39;c&amp;#39;], &amp;#34;hehe&amp;#34;) print(&amp;#39;Hello, World!&amp;#39;) $$y_t = \beta_0 + \beta_1 x_t + \epsilon_t$$</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://joanigq.github.io/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://joanigq.github.io/about/</guid>
+      <description>👋 Hi! I&amp;rsquo;m Joan Gonzalez, currently a student at Universidad de Buenos Aires studying Computer Science.</description>
+    </item>
+    
+  </channel>
+</rss>
