@@ -2,95 +2,95 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost/posts/2023/01/hugo-and-github-pages/</loc>
+    <loc>http://joanigq.github.io/posts/2023/01/hugo-and-github-pages/</loc>
     <lastmod>2023-01-13T23:19:16-03:00</lastmod>
   </url><url>
-    <loc>http://localhost/</loc>
-    <lastmod>2023-01-13T23:19:16-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost/"
-                />
-  </url><url>
-    <loc>http://localhost/posts/</loc>
+    <loc>http://joanigq.github.io/</loc>
     <lastmod>2023-01-13T23:19:16-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/es/posts/"
+                href="http://joanigq.github.io/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/posts/"
+                href="http://joanigq.github.io/"
                 />
   </url><url>
-    <loc>http://localhost/posts/2023/01/example-post/</loc>
+    <loc>http://joanigq.github.io/posts/</loc>
+    <lastmod>2023-01-13T23:19:16-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://joanigq.github.io/es/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://joanigq.github.io/posts/"
+                />
+  </url><url>
+    <loc>http://joanigq.github.io/posts/2023/01/example-post/</loc>
     <lastmod>2023-01-13T17:45:28-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/es/posts/2023/01/example-post/"
+                href="http://joanigq.github.io/es/posts/2023/01/example-post/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/posts/2023/01/example-post/"
+                href="http://joanigq.github.io/posts/2023/01/example-post/"
                 />
   </url><url>
-    <loc>http://localhost/about/</loc>
+    <loc>http://joanigq.github.io/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/es/about/"
+                href="http://joanigq.github.io/es/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/about/"
+                href="http://joanigq.github.io/about/"
                 />
   </url><url>
-    <loc>http://localhost/blog/</loc>
+    <loc>http://joanigq.github.io/blog/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/es/blog/"
+                href="http://joanigq.github.io/es/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/blog/"
+                href="http://joanigq.github.io/blog/"
                 />
   </url><url>
-    <loc>http://localhost/series/</loc>
+    <loc>http://joanigq.github.io/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/es/series/"
+                href="http://joanigq.github.io/es/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/series/"
+                href="http://joanigq.github.io/series/"
                 />
   </url><url>
-    <loc>http://localhost/tags/</loc>
+    <loc>http://joanigq.github.io/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost/es/tags/"
+                href="http://joanigq.github.io/es/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost/tags/"
+                href="http://joanigq.github.io/tags/"
                 />
   </url>
 </urlset>

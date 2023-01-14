@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Joan Gonzalez</title>
-        <link>http://localhost/posts/</link>
+        <link>http://joanigq.github.io/posts/</link>
         <description>Recent content in Posts on Joan Gonzalez</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Fri, 13 Jan 2023 23:19:16 -0300</lastBuildDate>
-        <atom:link href="http://localhost/posts/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://joanigq.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
         
         <item>
             <title>Hugo and GitHub Pages</title>
-            <link>http://localhost/posts/2023/01/hugo-and-github-pages/</link>
+            <link>http://joanigq.github.io/posts/2023/01/hugo-and-github-pages/</link>
             <pubDate>Fri, 13 Jan 2023 23:19:16 -0300</pubDate>
             
-            <guid>http://localhost/posts/2023/01/hugo-and-github-pages/</guid>
+            <guid>http://joanigq.github.io/posts/2023/01/hugo-and-github-pages/</guid>
             <description>Having a webpage is pretty important nowadays, but starting off might be difficult for many, specially if you don&amp;rsquo;t wanna use paid services like website builders, and/or pay for a hosting domain. An alternative to all that can be static site generators, tools like Hugo (upon which is build this website) that can generate all the proper files for a website, based off a sort of template, then writing posts (like this one!</description>
             <content type="html"><![CDATA[<p>Having a webpage is pretty important nowadays, but starting off might be difficult for many, specially if you don&rsquo;t wanna use paid services like website builders, and/or pay for a hosting domain. An alternative to all that can be <em>static site generators</em>, tools like Hugo (upon which is build this website) that can generate all the proper files for a website, based off a sort of template, then writing posts (<em>like this one!</em>) can be done by just writing in Markdown language. For hosting, there&rsquo;s a few free options, but today we&rsquo;ll be exploring GitHub Pages.</p>
 <p>This can be a little more coding-oriented than the other options, but it&rsquo;s very flexible, maintainable and, best of all, free!</p>
@@ -106,10 +106,10 @@ Press Ctrl+C to stop
         
         <item>
             <title>Example Post</title>
-            <link>http://localhost/posts/2023/01/example-post/</link>
+            <link>http://joanigq.github.io/posts/2023/01/example-post/</link>
             <pubDate>Fri, 13 Jan 2023 17:45:28 -0300</pubDate>
             
-            <guid>http://localhost/posts/2023/01/example-post/</guid>
+            <guid>http://joanigq.github.io/posts/2023/01/example-post/</guid>
             <description>This code does things import requestsdef doSomething(x:int, a:list, b:str) -&amp;gt; None:return;# &amp;lt;----&amp;gt; &amp;lt;==&amp;gt; &amp;lt;| --- |&amp;gt; |=&amp;gt;if __name__ == &amp;quot;__main__&amp;quot;:doSomething(1, [&#39;a&#39;,&#39;b&#39;,&#39;c&#39;], &amp;quot;hehe&amp;quot;)print(&#39;Hello, World!&#39;)$$y_t = \beta_0 + \beta_1 x_t + \epsilon_t$$</description>
             <content type="html"><![CDATA[<h3 id="this-code-does-things">This code does things</h3>
 <pre><code class="language-python">import requests
