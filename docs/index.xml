@@ -2,27 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Joan Gonzalez</title>
-    <link>https://joanigq.github.io/</link>
+    <link>http://localhost/</link>
     <description>Recent content on Joan Gonzalez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 13 Jan 2023 17:45:28 -0300</lastBuildDate><atom:link href="https://joanigq.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Jan 2023 23:19:16 -0300</lastBuildDate><atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo and GitHub Pages</title>
+      <link>http://localhost/posts/2023/01/hugo-and-github-pages/</link>
+      <pubDate>Fri, 13 Jan 2023 23:19:16 -0300</pubDate>
+      
+      <guid>http://localhost/posts/2023/01/hugo-and-github-pages/</guid>
+      <description>Having a webpage is pretty important nowadays, but starting off might be difficult for many, specially if you don&amp;rsquo;t wanna use paid services like website builders, and/or pay for a hosting domain. An alternative to all that can be static site generators, tools like Hugo (upon which is build this website) that can generate all the proper files for a website, based off a sort of template, then writing posts (like this one!</description>
+    </item>
+    
     <item>
       <title>Example Post</title>
-      <link>https://joanigq.github.io/posts/2023/01/example-post/</link>
+      <link>http://localhost/posts/2023/01/example-post/</link>
       <pubDate>Fri, 13 Jan 2023 17:45:28 -0300</pubDate>
       
-      <guid>https://joanigq.github.io/posts/2023/01/example-post/</guid>
-      <description>This code does things import requests def doSomething(x:int, a:list, b:str) -&amp;gt; None: return; # &amp;lt;----&amp;gt; &amp;lt;==&amp;gt; &amp;lt;| --- |&amp;gt; |=&amp;gt; if __name__ == &amp;#34;__main__&amp;#34;: doSomething(1, [&amp;#39;a&amp;#39;,&amp;#39;b&amp;#39;,&amp;#39;c&amp;#39;], &amp;#34;hehe&amp;#34;) print(&amp;#39;Hello, World!&amp;#39;) $$y_t = \beta_0 + \beta_1 x_t + \epsilon_t$$</description>
+      <guid>http://localhost/posts/2023/01/example-post/</guid>
+      <description>This code does things import requestsdef doSomething(x:int, a:list, b:str) -&amp;gt; None:return;# &amp;lt;----&amp;gt; &amp;lt;==&amp;gt; &amp;lt;| --- |&amp;gt; |=&amp;gt;if __name__ == &amp;quot;__main__&amp;quot;:doSomething(1, [&#39;a&#39;,&#39;b&#39;,&#39;c&#39;], &amp;quot;hehe&amp;quot;)print(&#39;Hello, World!&#39;)$$y_t = \beta_0 + \beta_1 x_t + \epsilon_t$$</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://joanigq.github.io/about/</link>
+      <link>http://localhost/about/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://joanigq.github.io/about/</guid>
+      <guid>http://localhost/about/</guid>
       <description>👋 Hi! I&amp;rsquo;m Joan Gonzalez, currently a student at Universidad de Buenos Aires studying Computer Science.</description>
     </item>
     
