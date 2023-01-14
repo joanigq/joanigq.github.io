@@ -7,7 +7,7 @@ publishDir = "docs"
 
 enableThemeToggle = false
 PygmentsCodeFences = true
-PygmentsStyle = "one-dark"
+PygmentsStyle = "atom-one-dark"
 
 defaultContentLanguageInSubdir = false
 
