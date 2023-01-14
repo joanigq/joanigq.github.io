@@ -1,4 +1,4 @@
-baseurl      = "http://localhost"
+baseurl      = "http://joanigq.github.io/"
 title        = "joan_codes"
 languageCode = "en-us"
 theme        = "hello-friend-ng"
