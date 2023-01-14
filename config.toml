@@ -6,8 +6,8 @@ paginate     = 10
 publishDir = "docs"
 
 enableThemeToggle = false
-PygmentsCodeFences = false
-# PygmentsStyle = "atom-one-dark"
+PygmentsCodeFences = true
+PygmentsStyle = "atom-one-dark"
 
 defaultContentLanguageInSubdir = false
 
