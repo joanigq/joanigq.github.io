@@ -6,8 +6,8 @@ paginate     = 10
 publishDir = "docs"
 
 enableThemeToggle = false
-PygmentsCodeFences = true
-PygmentsStyle = "atom-one-dark"
+PygmentsCodeFences = false
+# PygmentsStyle = "atom-one-dark"
 
 defaultContentLanguageInSubdir = false
 
@@ -19,6 +19,12 @@ defaultContentLanguageInSubdir = false
   name = "Joan Gonzalez"
 
 [params]
+  #https://highlightjs.org
+  highlightjs = true
+  #highlightjsstyle = "agate"
+  #highlightjsstyle = "androidstudio"
+  highlightjsstyle = "atom-one-dark"
+
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
   dateformNum     = "01/02/2006"
