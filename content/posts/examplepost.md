@@ -26,5 +26,9 @@ class SomeClass:
 ```
 
 $$
-a = bc
+f(x) = \left \\{
+  \begin{matrix}
+    \sum_{i=0}^x \frac{i}{2} & \text{if } x=0 \\\\
+    \int_0^x g(x)\;dx & \text{if } x \neq 0
+\end{matrix}\right.
 $$
