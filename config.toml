@@ -56,7 +56,7 @@ enableMissingTranslationPlaceholders = false
   images = [""]
 
   # Home subtitle of the index page.
-  homeSubtitle = "Subtitle"
+  homeSubtitle = "Computer Science Student"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"

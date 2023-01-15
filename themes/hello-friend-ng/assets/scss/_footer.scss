@@ -21,6 +21,7 @@
     flex-direction: row;
     align-items: center;
     font-size: .5rem;
+    line-height: 150%;
     color: $light-color-secondary;
 
     @media #{$media-size-tablet} {
