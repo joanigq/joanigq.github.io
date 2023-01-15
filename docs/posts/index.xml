@@ -1,0 +1,46 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Joan Gonzalez</title>
+        <link>https://joanigq.github.io/posts/</link>
+        <description>Recent content in Posts on Joan Gonzalez</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Sun, 15 Jan 2023 14:47:06 -0300</lastBuildDate>
+        <atom:link href="https://joanigq.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Example post</title>
+            <link>https://joanigq.github.io/posts/2023/01/example-post/</link>
+            <pubDate>Sun, 15 Jan 2023 14:47:06 -0300</pubDate>
+            
+            <guid>https://joanigq.github.io/posts/2023/01/example-post/</guid>
+            <description>Hi there, this is an example.
+@requires_authorization(roles=[&amp;#34;ADMIN&amp;#34;]) def somefunc(param1=&amp;#39;&amp;#39;, param2=0): r&amp;#39;&amp;#39;&amp;#39;A docstring&amp;#39;&amp;#39;&amp;#39; if param1 &amp;gt; param2: # interesting print &amp;#39;Gre\&amp;#39;ater&amp;#39; return (param2 - param1 + 1 + 0b10l) or None class SomeClass: pass &amp;gt;&amp;gt;&amp;gt; message = &amp;#39;&amp;#39;&amp;#39;interpreter ... prompt&amp;#39;&amp;#39;&amp;#39; # &amp;lt;-&amp;gt; &amp;lt;==&amp;gt; &amp;gt;== $$ f(x) = \left \{ \begin{matrix} \sum_{i=0}^x \frac{i}{2} &amp;amp; \text{if } x=0 \\ \int_0^x g(x);dx &amp;amp; \text{if } x \neq 0 \end{matrix}\right. $$</description>
+            <content type="html"><![CDATA[<p>Hi there, this is an example.</p>
+<div class="highlight"><pre tabindex="0" style="color:#abb2bf;background-color:#282c34;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#61afef">@requires_authorization</span>(<span style="color:#e06c75">roles</span><span style="color:#56b6c2">=</span>[<span style="color:#98c379">&#34;ADMIN&#34;</span>])
+</span></span><span style="display:flex;"><span><span style="color:#c678dd">def</span> <span style="color:#61afef;font-weight:bold">somefunc</span>(<span style="color:#e06c75">param1</span><span style="color:#56b6c2">=</span><span style="color:#98c379">&#39;&#39;</span>, <span style="color:#e06c75">param2</span><span style="color:#56b6c2">=</span><span style="color:#d19a66">0</span>):
+</span></span><span style="display:flex;"><span>    <span style="color:#98c379">r</span><span style="color:#98c379">&#39;&#39;&#39;A docstring&#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">if</span> <span style="color:#e06c75">param1</span> <span style="color:#56b6c2">&gt;</span> <span style="color:#e06c75">param2</span>: <span style="color:#7f848e"># interesting</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#e5c07b">print</span> <span style="color:#98c379">&#39;Gre</span><span style="color:#98c379">\&#39;</span><span style="color:#98c379">ater&#39;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">return</span> (<span style="color:#e06c75">param2</span> <span style="color:#56b6c2">-</span> <span style="color:#e06c75">param1</span> <span style="color:#56b6c2">+</span> <span style="color:#d19a66">1</span> <span style="color:#56b6c2">+</span> <span style="color:#d19a66">0b10</span><span style="color:#e06c75">l</span>) <span style="color:#56b6c2">or</span> <span style="color:#e5c07b">None</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#c678dd">class</span> <span style="color:#e5c07b">SomeClass</span>:
+</span></span><span style="display:flex;"><span>    <span style="color:#c678dd">pass</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#56b6c2">&gt;&gt;&gt;</span> <span style="color:#e06c75">message</span> <span style="color:#56b6c2">=</span> <span style="color:#98c379">&#39;&#39;&#39;interpreter
+</span></span></span><span style="display:flex;"><span><span style="color:#98c379">... prompt&#39;&#39;&#39;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#7f848e"># &lt;-&gt; &lt;==&gt; &gt;==</span>
+</span></span></code></pre></div><p>$$
+f(x) = \left \{
+\begin{matrix}
+\sum_{i=0}^x \frac{i}{2} &amp; \text{if } x=0 \\
+\int_0^x g(x);dx &amp; \text{if } x \neq 0
+\end{matrix}\right.
+$$</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
