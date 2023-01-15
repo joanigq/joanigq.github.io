@@ -4,8 +4,13 @@
             {{ if .IsTranslated }}
                 {{ i18n "postAvailable" }}
                 {{ range .Translations }}
-                    <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
-                {{ end}}
+                <!-- If the language is "spanish", put specifically the Argentininan flag -->
+                    {{ if eq .Page.Lang "es" }}
+                        <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-ar flag-icon-squared"></span></a>
+                    {{ else }}
+                        <a href="{{ .Permalink }}"><span class="flag flag-icon flag-icon-{{ index $.Site.Data.langFlags (.Lang) }} flag-icon-squared"></span></a>
+                    {{ end }}
+                {{ end }}
             {{ end }}
             </p>
         </div>
