@@ -13,6 +13,7 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 # googleAnalytics = ""
 # disqusShortname = ""
 
+defaultContentLanguageInSubdir = false
 archetypeDir = "archetypes"
 contentDir   = "content"
 dataDir      = "data"
@@ -149,14 +150,42 @@ enableMissingTranslationPlaceholders = false
 
 [languages]
   [languages.en]
-    subtitle  = "Subtitle"
+    subtitle  = "Personal Blog"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+     [languages.en.params]
+        homeSubtitle = "Computer Science Student"
+        [languages.en.params.logo]
+          logoMark     = "\\"
+          logoText     = "joan_codes> "
+          logoHomeLink = "/"
+          logoCursorDisabled = false
+          logoCursorColor    = "#ef235d"
+          logoCursorAnimate  = "2000ms"
+
 
   [languages.es]
-    subtitle  = "Subtítulo"
+    subtitle  = "Blog Personal"
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    [languages.es.params]
+        homeSubtitle = "Estudiante de Ciencias de la Computación"
+        [languages.es.params.logo]
+          logoMark     = "\\"
+          logoText     = "joan_programa> "
+          logoHomeLink = "/es/"
+          logoCursorDisabled = false
+          logoCursorColor    = "#74ACDF"
+          logoCursorAnimate  = "2000ms"
+    [languages.es.menu]
+        [[languages.es.menu.main]]
+          identifier = "about"
+          name       = "Sobre mí"
+          url        = "about/"
+        [[languages.es.menu.main]]
+          identifier = "posts"
+          name       = "Publicaciones"
+          url        = "posts/"
 
 [menu]
   [[menu.main]]
