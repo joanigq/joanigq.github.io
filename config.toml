@@ -1,4 +1,4 @@
-baseURL = "https://joanigq.github.io"
+baseURL = "https://joanigq.github.io/"
 title   = "Joan Gonzalez"
 languageCode = "en-us"
 theme = "hello-friend-ng"
