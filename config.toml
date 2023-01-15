@@ -4,7 +4,9 @@ languageCode = "en-us"
 theme = "hello-friend-ng"
 
 PygmentsCodeFences = true
-PygmentsStyle = "monokai"
+PygmentsStyle = "onedark"
+
+katex = true
 
 paginate  = 10
 rssLimit  = 10  # Maximum number of items in the RSS feed.
@@ -38,9 +40,6 @@ disableHugoGeneratorInject = false
 
 [author]
   name = "Jane Doe"
-
-[blackfriday]
-  hrefTargetBlank = true
 
 [taxonomies]
   tag      = "tags"
