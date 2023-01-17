@@ -16,16 +16,24 @@
                        font-size: 3.5rem;
                        line-height: 0%;
                        font-weight: 300;">
-                <a href="/about", style="text-decoration: none">
+
+                <a href="{{ "about" | absLangURL }}"
+                   style="text-decoration: none">
                     {{ .Site.Title }}
                 </a>
+
             </h1>
 
             <div style="font-family: 'Inter Tight', sans-serif;
                         font-size: 1.1rem;
                         line-height: 0%;
                         font-weight: 400;">
-                    {{ partial "subtitle.html" . }}
+
+                    <a href="{{ "about" | absLangURL }}"
+                       style="text-decoration: none;">
+                        {{ partial "subtitle.html" . }}
+                    </a>
+                    
             </div>
             
             <div style="margin-top: 1.5rem;">
