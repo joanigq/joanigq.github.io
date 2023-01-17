@@ -13,10 +13,10 @@ other = "También disponible en"
 # 404.html
 #
 [archives]
-other = "Archivo"
+other = "Publicaciones"
 
 [home]
-other = "Home"
+other = "Página Principal"
 
 [notFound]
 other = "Oops, página no encontrada…"
@@ -29,7 +29,7 @@ one   = "Un minuto"
 other = "{{ .Count }} minutos"
 
 [tableOfContents]
-other = "Tabla de Contenido"
+other = "Índice"
 
 [wordCount]
 one   = "Una Palabra"
