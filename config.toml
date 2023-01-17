@@ -83,7 +83,7 @@ enableMissingTranslationPlaceholders = false
 
   # Global language menu
   # Enables the global language menu.
-  enableGlobalLanguageMenu = false
+  enableGlobalLanguageMenu = true
 
   # Integrate Javascript files or stylesheets by adding the url to the external assets or by
   # linking local files with their path relative to the static folder, e.g. "css/styles.css"
@@ -133,12 +133,12 @@ enableMissingTranslationPlaceholders = false
   #   url  = "https://twitter.com/"
 
   [[params.social]]
-    name = "email"
-    url  = "mailto:nobody@example.com"
-
-  [[params.social]]
     name = "github"
     url  = "https://github.com/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:nobody@example.com"
 
   # [[params.social]]
   #   name = "linkedin"

@@ -8,11 +8,30 @@
         {{- if .Site.Params.EnableGlobalLanguageMenu }}
         <div class="submenu">
             <li class="dropdown">
-                <a href="javascript:void(0)" class="dropbtn">{{ .Language }}</a>
+                <a href="javascript:void(0)" class="dropbtn">
+                    {{ if eq .Page.Lang "es" }}
+                        <span class="flag flag-icon flag-icon-ar flag-icon-squared"></span>
+                    {{ else if eq .Page.Lang "en" }}
+                        <script>
+                            console.log("{{ .Page.Lang }}")
+                        </script>
+                        <span class="flag flag-icon flag-icon-gb flag-icon-squared"></span>
+                    {{ else }}
+                        {{ .Language }}
+                    {{ end }}
+                </a>
                 <div class="dropdown-content">
                     {{ if .Site.IsMultiLingual }}
                         {{ range $.Translations }}
-                            <a title="{{ .Language }}" href="{{ .Permalink }}">{{ .Language }}</a>
+                            <a title="{{ .Language }}" href="{{ .Permalink }}">
+                                {{ if eq .Page.Lang "es" }}
+                                    <span class="flag flag-icon flag-icon-ar flag-icon-squared"></span>
+                                {{ else if eq .Page.Lang "en" }}
+                                    <span class="flag flag-icon flag-icon-gb flag-icon-squared"></span>
+                                {{ else }}
+                                    {{ .Language }}
+                                {{ end }}
+                            </a>
                         {{ end }}
                     {{ end }}
                 </div>
