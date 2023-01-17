@@ -10,11 +10,26 @@
             {{ end }}
 
             <!-- Front page title -->
-            <h1 style="font-family: Open Sans">{{ .Site.Title }}</h1>
+            <h1 style="font-family: 'Inter Tight', sans-serif;
+                       font-size: 3.5rem;
+                       line-height: 0%;
+                       font-weight: 300;">
+                <a href="/about", style="text-decoration: none">
+                    {{ .Site.Title }}
+                </a>
+            </h1>
 
-            {{ partial "subtitle.html" . }}
-
-            {{- with .Site.Params.social }}
+            <div style="font-family: 'Inter Tight', sans-serif;
+                        font-size: 1.1rem;
+                        line-height: 0%;
+                        font-weight: 400;">
+                    {{ partial "subtitle.html" . }}
+            </div>
+            
+            <div style="margin-top: 1.5rem;">
+                {{- with .Site.Params.social }}
+            </div>
+            
                 <div>
                     {{ partial "social-icons.html" . }}
                 </div>
