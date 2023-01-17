@@ -7,7 +7,7 @@ math: true
 images:
 ---
 
-Hi there, this is an example.
+Hi there, this is an **example.**
 
 
 ```python
