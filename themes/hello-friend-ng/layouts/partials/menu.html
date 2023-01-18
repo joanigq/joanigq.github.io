@@ -12,9 +12,6 @@
                     {{ if eq .Page.Lang "es" }}
                         <span class="flag flag-icon flag-icon-ar flag-icon-squared"></span>
                     {{ else if eq .Page.Lang "en" }}
-                        <script>
-                            console.log("{{ .Page.Lang }}")
-                        </script>
                         <span class="flag flag-icon flag-icon-gb flag-icon-squared"></span>
                     {{ else }}
                         {{ .Language }}
